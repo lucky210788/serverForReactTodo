@@ -20,7 +20,7 @@ const registrationSchema = {
         "password": {
             "type": "string",
             "minLength": 9
-        },
+        }
     },
     required: ['name', 'surname', 'email', 'phone', 'password']
 };
