@@ -47,6 +47,7 @@ router.post('/api/login', loginSchemaValidator, function (req, res, next) {
 
             if (user.length > 0) {
                 res.status(201).send({'token': user[0].token});
+
             }else{
                 res.status(500);
                 return next(err);
