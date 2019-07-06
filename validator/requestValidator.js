@@ -11,6 +11,9 @@ const requestSchema = {
             "type": "string"
         },
         "status": {
+            "type": "boolean"
+        },
+        "propName": {
             "type": "string"
         },
         "selected": {
